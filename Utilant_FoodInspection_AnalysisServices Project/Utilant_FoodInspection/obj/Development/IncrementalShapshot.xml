@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Utilant_FoodInspection</Database>
+    <Server>LAPTOP-783GFT0O\AS_MD</Server>
+    <ConnectionString>Data Source=LAPTOP-783GFT0O\AS_MD;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>EsGpDOQb2HoHdVwiyeAUku2hLEY=6/25/2019 3:32:02 PM6/25/2019 2:10:19 PM</TimeStamp>
+        <ID>
+          <String>Practice Utilant</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>EPt3CtuJY44hUhqVHCrq+TwMalU=6/25/2019 4:14:54 PM6/25/2019 2:10:50 PM</TimeStamp>
+        <ID>
+          <String>Practice Utilant</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ork0EEiFr7oG0TK58vkDSHX+RY4=6/25/2019 4:25:19 PM6/25/2019 2:14:45 PM</TimeStamp>
+        <ID>
+          <String>Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cO8NMii3hy1In9Mj+luGhddiAws=6/25/2019 2:15:05 PM6/25/2019 2:15:05 PM</TimeStamp>
+        <ID>
+          <String>Inspection Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>d9ryMz5lrKtZMXUEd29IqznvF5E=6/25/2019 4:25:19 PM6/25/2019 2:15:36 PM</TimeStamp>
+        <ID>
+          <String>Inspection Result</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>aikzNtGty8kCilFTpCQaA4EMnoU=6/25/2019 4:14:54 PM6/25/2019 2:16:17 PM+mwqZXjgE1kQKJ1YUcc//+jG8aw=6/25/2019 4:14:54 PM6/25/2019 2:16:17 PM</TimeStamp>
+        <ID>
+          <String>Utilant_FoodInspections</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>u/+D+npvppry/G8PwfgBEIy9pWM=6/25/2019 1:16:19 PM6/25/2019 1:16:19 PM</TimeStamp>
+      <ID>
+        <String>Utilant_FoodInspection</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-06-25T23:25:22.323333Z</LastDeployed>
+</DeploymentSnapshot>
